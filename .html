@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry & Art</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495E;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .content-section {
+            margin-bottom: 40px;
+        }
+        .poetry-text {
+            font-style: italic;
+            color: #34495E;
+        }
+        .poetry-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+        .audio-video-container {
+            display: flex;
+            gap: 20px;
+        }
+        .audio, .video {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Poetry & Art</h1>
+        <p>Expressing emotions through words, visuals, and sounds</p>
+    </header>
+
+    <nav>
+        <a href="#poetry">Poetry</a>
+        <a href="#artwork">Artwork</a>
+        <a href="#audio">Audio</a>
+        <a href="#video">Video</a>
+    </nav>
+
+    <main>
+        <section id="poetry" class="content-section">
+            <h2>Poetry: A Journey of Words</h2>
+            <p class="poetry-text">
+                "In the depths of silence, I hear the call,<br>
+                Of distant shores, of a lover's thrall,<br>
+                Words unspoken, yet hearts entwined,<br>
+                A connection beyond what eyes can find."
+            </p>
+            <p>Explore more poetic reflections in the links below:</p>
+            <ul>
+                <li><a href="https://www.poetryfoundation.org/" target="_blank">Visit Poetry Foundation</a></li>
+                <li><a href="https://www.poetryarchive.org/" target="_blank">Visit Poetry Archive</a></li>
+            </ul>
+        </section>
+
+        <section id="artwork" class="content-section">
+            <h2>Artwork: Visual Poetry</h2>
+            <img src="https://www.w3schools.com/w3images/flowers.jpg" alt="Poetry Visual" class="poetry-image">
+            <p>Artwork is the silent partner to poetry—expressing emotions visually.</p>
+        </section>
+
+        <section id="audio" class="content-section">
+            <h2>Audio: The Rhythm of Words</h2>
+            <div class="audio-video-container">
+                <div class="audio">
+                    <h3>Listen to Poetry Recitation</h3>
+                    <audio controls>
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </section>
+
+        <section id="video" class="content-section">
+            <h2>Video: Poetry in Motion</h2>
+            <div class="audio-video-container">
+                <div class="video">
+                    <h3>Watch Poetry in Action</h3>
+                    <video width="320" height="240" controls>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Sachin Kumar | Poetry & Art</p>
+    </footer>
+
+</body>
+</html>
